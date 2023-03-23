@@ -715,18 +715,15 @@ body.nav.active{
 @media (min-width:992px) {
   .comtainer{
     max-width: 960px;
-
   }
   .nav-open-btn, .navbar>*:not(.navbar-list),
   .overlay{
     display: none;
-
   }
   .navbar, .navbar.active{
     all: unset;
     display: block;
     margin-inline: auto;
-
   }
   .navbar-list{
     display: flex;
@@ -748,8 +745,19 @@ body.nav.active{
   .hero{
     padding-block-start: calc(var(--section-padding) + 50px);
     text-align: left;
+  
   }
   .hero .comtainer{
     grid-template-columns: 1;
+  
+  }
+  .hero-content{
+    max-width: unset;
+    margin-inline: 0;
+  }
+  .btn-wrapper{
+    justify-content: flex-start;
   }
 }
+
+
